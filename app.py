@@ -119,7 +119,7 @@ def display_hover(hoverData):
 
 if __name__ == "__main__":
     app.layout = layout
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', port=10000)
 
 
 
