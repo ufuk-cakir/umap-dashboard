@@ -12,7 +12,7 @@ import plotly.graph_objects as go
 from PIL import Image
 
 PATH = pathlib.Path(__file__).parent
-DATA_PATH=(PATH.joinpath("../data")).resolve()
+DATA_PATH= PATH.joinpath("data").resolve()
 IMAGE_PATH = DATA_PATH.joinpath("plotly_images")
 
 
