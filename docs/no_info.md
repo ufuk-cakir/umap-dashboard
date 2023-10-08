@@ -1,1 +1,0 @@
-Click on a Node to show more information! 
